@@ -1,0 +1,129 @@
+#main{
+    position: absolute;
+    height:90%;
+    left: 50%;
+  }
+  #img1{
+    position: absolute;
+    height: 80%;
+    top: 8%;
+    left: 55%;
+    width: 460px;
+  }
+  #img2{
+     position: absolute;
+    height: 80%;
+    top: 8%;
+    left: 55%;
+    width: 460px;
+    display: none;
+  }
+  #curve{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 124px;
+  }
+  #quotes{
+    position: absolute;
+    left:200px;
+    top: 100px;
+    height: 100px;
+  }
+
+  body{
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+}
+.color{
+  color: grey;
+  font-weight: 700;
+}
+#paragraph1{
+  position: absolute;
+  top:150px;
+  left: 130px;
+  max-width: 700px; 
+}
+#paragraph2{
+  position: absolute;
+  top:150px;
+  left: 130px;
+  max-width: 700px;
+  display: none; 
+}
+#icons{
+  position: absolute;
+  bottom: 80px;
+  right: 530px;
+}
+@media (max-width: 500px)
+{
+  #main{
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    left: 60px;
+    padding: 0 20px;
+  }
+  #img1{
+    position: absolute;
+    height: 42%;
+    width: 50%;
+    left: 130px;
+    top: 35px;
+  }
+  #img2{
+     position: absolute;
+    height: 42%;
+    width: 50%;
+    left: 130px;
+    top: 35px;
+  }
+  #paragraph1{
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    max-width: 500px;
+    text-align: center;
+    padding: 0 20px;
+
+  }
+  #paragraph2{
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    max-width: 500px;
+    text-align: center;
+    padding: 0 20px;
+
+
+  }
+  #quotes{
+    top:330px;
+    height: 65px;
+   text-align: center;
+
+  }
+  #curve{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+  }
+  #icons{
+  position: absolute;
+  bottom: 275px;
+  left: 130px;
+  max-width: 20px;
+   float: left;
+   
+ 
+}
+ body{
+    font-size: 18px;
+
+
+  }
+
+}
